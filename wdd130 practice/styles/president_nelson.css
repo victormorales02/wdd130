@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+}
+
+a {
+    color: white;
+    font-size: 3em;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+a:hover {
+    color: black;
+}
+
+p {
+    color: black;
+    text-align: center;
+    width: 100%;
+    font-size: 1.3em;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    
+}
+
+img {
+    width: 20%;
+    margin: 0 auto;
+    display: block;
+  }
+
+h1 {
+    color: white;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
