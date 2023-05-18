@@ -1,0 +1,22 @@
+body {
+    background-color: gray;
+}
+
+main {
+    margin: 0 auto;
+}
+
+.desk-icon {
+    size: 20px;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+#desk-img {
+    width: 20px;
+    content: 20px;
+    size: 10%;
+    margin: 500px;
+}
