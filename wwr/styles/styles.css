@@ -66,6 +66,7 @@ nav a:hover {
 
 }
 
+
 h4 {
     color: yellow;
 }
@@ -235,6 +236,72 @@ footer a:hover {
     width: 100%;
 }
 
+
+/* This section goes for the CSS of the rivers page */
+
+.intro-box {
+    background-color: #FEFAE0;
+    color: black;
+    text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    font-size: smaller;
+}
+
+.rivers-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr
+}
+
+#first-background {
+    background-color: #936639;
+    grid-column: 1/11;
+    grid-row: 4/9;
+}
+
+.msg {
+    background-color: #606C38;
+    color: #FEFAE0;
+    line-height: 1.5em;
+    margin-bottom: 75px;
+    grid-column: 2/3;
+    grid-row: 4/6;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.msg p {
+    padding-bottom: 15px;
+}
+
+footer {
+    background-color: #BC6C25;
+    color: #FEFAE0;
+    padding: 25px 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer a {
+    color: #FEFAE0;
+    text-decoration: none;
+}
+
+footer a:hover {
+    background-color: #606C38;
+    color: #FEFAE0;
+    text-decoration: underline;
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
