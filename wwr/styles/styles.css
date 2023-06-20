@@ -232,49 +232,7 @@ footer a:hover {
 }
 
 
-/* This section goes for the CSS of the rivers page */
 
-.book {
-    background-color: #BC6C25;
-    color: #FEFAE0;
-    text-decoration: none;
-    padding: 15px 30px;
-    margin-top: 50px;
-    border-radius: 5px;
-}
-
-#background-2 {
-    background-color: #BC6C25;
-}
-
-footer {
-    background-color: #BC6C25;
-    color: #FEFAE0;
-    padding: 25px 50px;
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-footer .social img {
-    padding-top: 15px;
-}
-
-footer p {
-    font-size: 1.2em;
-}
-
-footer a {
-    color: #FEFAE0;
-    text-decoration: none;
-}
-
-footer a:hover {
-    background-color: #606C38;
-    color: #FEFAE0;
-    text-decoration: underline;
-}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
